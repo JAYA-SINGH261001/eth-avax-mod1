@@ -1,0 +1,26 @@
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.17;
+
+contract Error {
+
+    uint time = 10;
+    address owner;
+
+    constructor() {
+        
+        owner = msg.sender;
+    }
+
+    function Speed(uint _distance) public view returns (uint) {
+        require(owner == msg.sender ,"You can't open this file");
+
+        assert(_distance > 0);
+
+        if ((_distance/ time) < 0){
+
+            revert("Speed of a body can never be negative");
+        }
+
+        return _distance/time;
+    }
+}
