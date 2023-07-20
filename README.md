@@ -1,5 +1,5 @@
-# eth-avax-mod1
-# 
+# Eth-avax-mod1
+# Error
 This Solidity program is a simple program which shows the functioning of the assert , require and revert fuctiona and their importance in the program.
 # License
 This contract is using the MIT License.
@@ -15,10 +15,14 @@ Once you are on the Remix website, create a new file by clicking on the "+" icon
 
 Save the file with a .sol extension (e.g., module1.sol).
 
-Copy and paste the code into the file:.
+Copy and paste the code into the file:https://github.com/JAYA-SINGH261001/eth-avax-mod1.
 
 To compile the code, click on the "Solidity Compiler" tab in the left-hand sidebar. Make sure the "Compiler" option is set to "0.8.17" (or another compatible version), and then click on the "Compile module1.sol" button.
 
 Once the code is compiled, you can deploy the contract by clicking on the "Deploy & Run Transactions" tab in the left-hand sidebar. Select the "Error" contract from the dropdown menu, and then click on the "Deploy" button.
 
-Once the contract is deployed, you can interact with it by calling the sayHello function. Click on the "" contract in the left-hand sidebar, and then click on the "Speed" function. Finally, click on the "transact" button to execute the function and retrieve the result.
+Once the contract is deployed, you can interact with it by calling the sayHello function. Click on the "Error" contract in the left-hand sidebar, and then click on the "Speed" function. Finally, click on the "transact" button to execute the function and retrieve the result.
+# Authors
+Jaya Singh (https://www.linkedin.com/in/jaya-singh-23b113230).
+# Video Walkthrough
+
